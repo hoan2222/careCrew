@@ -5,7 +5,6 @@ export default function Footer() {
     <div className="bg-[#2353B2] text-white text-center py-5 px-8 md:px-48 space-y-6">
       <div className=" flex flex-col items-center space-y-2">
         <Logo color="#ffffff" />
-        <img src="/CareCrew.svg" alt="CARE_CREW" />
         <p>
           We are students at the Charité who are passionately committed to
           social and medical projects. It is important to us to use creative
