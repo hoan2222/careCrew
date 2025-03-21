@@ -13,22 +13,34 @@ export default function Gallery() {
         <CarouselContent>
           <CarouselItem>
             <div className="p-1">
-              <img src="/Schule_outdoor.png" alt="Die Schule" />
+              <img
+                src="https://hoan2222.github.io/careCrew/Schule_outdoor.png"
+                alt="Die Schule"
+              />
             </div>
           </CarouselItem>
           <CarouselItem>
             <div className="p-1">
-              <img src="/Schule_indoor.png" alt="Das Klassenzimmer" />
+              <img
+                src="https://hoan2222.github.io/careCrew/Schule_indoor.png"
+                alt="Das Klassenzimmer"
+              />
             </div>
           </CarouselItem>
           <CarouselItem>
             <div className="p-1">
-              <img src="/Schüler_Szenerie.png" alt="Schüler" />
+              <img
+                src="https://hoan2222.github.io/careCrew/Schüler_Szenerie.png"
+                alt="Schüler"
+              />
             </div>
           </CarouselItem>
           <CarouselItem>
             <div className="p-1">
-              <img src="/Medikamente.png" alt="Medikamente vor Ort" />
+              <img
+                src="https://hoan2222.github.io/careCrew/Medikamente.png"
+                alt="Medikamente vor Ort"
+              />
             </div>
           </CarouselItem>
         </CarouselContent>

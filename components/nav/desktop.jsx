@@ -5,7 +5,10 @@ export default function Nav() {
   return (
     <div className="w-full flex flex-row justify-between items-center px-5 py-3 ">
       <a href="#home">
-        <img src="CareCrew.svg" alt="CARE_CREW" />
+        <img
+          src="https://hoan2222.github.io/careCrew/CareCrew.svg"
+          alt="CARE_CREW"
+        />
       </a>
       <a href="#about-us" className="hover:font-semibold">
         ABOUT US
