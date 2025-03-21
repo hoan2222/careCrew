@@ -8,7 +8,7 @@ export default function Imprint() {
         </p>
         <p className="font-semibold mt-2">AG Care Crew Berlin</p>
         <p className="mt-4">Kontakt:</p>
-        <p className="text-blue-600">carecrewberlin@fsi-charite.de</p>
+        <p className="text-blue-600">carecrew@fsi-charite.de</p>
       </div>
     </div>
   );

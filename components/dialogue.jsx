@@ -25,7 +25,10 @@ export function DialogDemo() {
           <DialogTitle>Join us now</DialogTitle>
         </DialogHeader>
         <div className="w-full flex flex-col space-y-4">
-          <a href="/" className="w-full">
+          <a
+            href="https://chat.whatsapp.com/KyQTkEf5lSaCQkIKhcbrBy"
+            className="w-full"
+          >
             <Button className="w-full py-5 cursor-pointer flex space-x-4">
               <MessageCircleMore size={40} color="#fdfdfd" strokeWidth={3} />
               <p> WhatsApp Group</p>
