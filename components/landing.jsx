@@ -7,7 +7,8 @@ export default function Landing() {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url(Background_desktop.png)", // Stelle sicher, dass du ein Bild im public Ordner hast
+          backgroundImage:
+            "url(https://hoan2222.github.io/careCrew/Background_desktop.png)", // Stelle sicher, dass du ein Bild im public Ordner hast
           filter: "brightness(0.9)", // Optional: macht das Bild etwas dunkler für bessere Lesbarkeit
         }}
       />
