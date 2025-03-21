@@ -11,7 +11,7 @@ export default function Mobile() {
     <div className="fixed w-full z-50">
       {/* Fixer Header */}
       <div className="flex flex-row justify-between space-x-3 w-full px-5 py-3 bg-[#FDFDFD]">
-        <img src="/CareCrew.svg" alt="CARE_CREW" />
+        <img src="CareCrew.svg" alt="CARE_CREW" />
         {open ? (
           <X size={40} onClick={() => setOpen(false)} />
         ) : (
