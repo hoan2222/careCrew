@@ -48,7 +48,9 @@ export default function Mobile() {
               {["ABOUT US", "OUR CONCEPT", "PROJECTS"].map((item) => (
                 <motion.a
                   key={item}
-                  href={`/#${item.toLowerCase().replace(" ", "-")}`} // Dies erstellt z.B. /#about-us
+                  href={`https://hoan2222.github.io/careCrew#${item
+                    .toLowerCase()
+                    .replace(" ", "-")}`}
                   className="text-2xl"
                   onClick={() => setOpen(false)}
                   variants={{
@@ -62,7 +64,7 @@ export default function Mobile() {
             </motion.div>
 
             <motion.a
-              href="/"
+              href="https://hoan2222.github.io/careCrew"
               className="pb-20"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

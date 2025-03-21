@@ -19,7 +19,7 @@ export default function Footer() {
         <a href="https://www.instagram.com/carecrew.berlin?igsh=MWt2dXVvbGViNXptag==">
           INSTAGRAM
         </a>
-        <a href="/imprint">IMPRINT</a>
+        <a href="https://hoan2222.github.io/careCrew/imprint">IMPRINT</a>
       </div>
       <p>© 2025 CareCrew</p>
     </div>

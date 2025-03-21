@@ -10,17 +10,26 @@ export default function Nav() {
           alt="CARE_CREW"
         />
       </a>
-      <a href="#about-us" className="hover:font-semibold">
+      <a
+        href="https://hoan2222.github.io/careCrew#about-us"
+        className="hover:font-semibold"
+      >
         ABOUT US
       </a>
-      <a href="#our-concept" className="hover:font-semibold">
+      <a
+        href="https://hoan2222.github.io/careCrew#our-concept"
+        className="hover:font-semibold"
+      >
         OUR CONCEPT
       </a>
 
-      <a href="#projects" className="hover:font-semibold">
+      <a
+        href="https://hoan2222.github.io/careCrew#projects"
+        className="hover:font-semibold"
+      >
         PROJECTS
       </a>
-      <a href="http:/">
+      <a href="https://hoan2222.github.io/careCrew">
         <Button className={"bg-[#2353B2] text-white cursor-pointer"}>
           <div className="flex flex-row items-center space-x-3">
             <p className=" font-medium text-lg">Donate now</p>

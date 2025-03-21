@@ -18,7 +18,7 @@ export default function Landing() {
         <h1 className="text-white text-5xl md:text-7xl font-bold text-center mb-20 md:w-[60%]">
           Together for healthcare worldwide
         </h1>
-        <a href="/">
+        <a href="https://hoan2222.github.io/careCrew">
           <button
             className="bg-[#2353B2] hover:bg-[#173777] text-white px-8 py-3 rounded-lg 
           text-lg font-semibold transition-all duration-300 transform hover:scale-105 cursor-pointer"
