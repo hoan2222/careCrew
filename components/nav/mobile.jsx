@@ -13,7 +13,7 @@ export default function Mobile() {
       {/* Fixer Header */}
       <div className="flex flex-row justify-between space-x-3 w-full px-5 py-3 bg-[#FDFDFD]">
         <img
-          src="https://hoan2222.github.io/careCrew/CareCrew.svg"
+          src="https://hoan2222.github.io/careCrew/logo_svg.svg"
           alt="CARE_CREW"
         />
         {open ? (
