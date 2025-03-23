@@ -5,7 +5,7 @@ export default function Nav() {
     <div className="w-full flex flex-row justify-between items-center px-5 py-3 ">
       <a href="#home">
         <img
-          src="https://hoan2222.github.io/careCrew/logo_svg.svg"
+          src="https://hoan2222.github.io/careCrew/logo.png"
           alt="CARE_CREW"
         />
       </a>
