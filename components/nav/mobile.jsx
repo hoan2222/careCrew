@@ -3,6 +3,7 @@ import { Button } from "../ui/button";
 import { MoveRight, X, Menu } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import { DonationDialogue } from "../donation_dialogue";
 
 export default function Mobile() {
   let [open, setOpen] = useState(false);
@@ -63,23 +64,28 @@ export default function Mobile() {
               ))}
             </motion.div>
 
-            <motion.a
-              href="https://hoan2222.github.io/careCrew"
+            <motion.div
               className="pb-20"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <Button className={"bg-[#2353B2] text-white cursor-pointer"}>
-                <div className="flex flex-row items-center space-x-5 py-8 ">
-                  <p className="font-medium text-3xl">Donate now</p>
-                  <MoveRight className="scale-150" />
-                </div>
-              </Button>
-            </motion.a>
+              <DonationDialogue children={<btn />} />
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
     </div>
   );
 }
+
+const btn = () => {
+  return (
+    <Button className={"bg-[#2353B2] text-white cursor-pointer"}>
+      <div className="flex flex-row items-center space-x-5 py-8 ">
+        <p className="font-medium text-3xl">Donate now</p>
+        <MoveRight className="scale-150" />
+      </div>
+    </Button>
+  );
+};

@@ -34,7 +34,7 @@ export function DialogDemo() {
               <p> WhatsApp Group</p>
             </Button>
           </a>
-          <a href="/" className="w-full">
+          <a href="mailto:carecrew@fsi-charite.de" className="w-full">
             <Button className="w-full py-5 cursor-pointer">Text us</Button>
           </a>
         </div>
