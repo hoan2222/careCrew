@@ -8,11 +8,19 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
+import { MoveRight } from "lucide-react";
 
-export function DonationDialogue({ children }) {
+export function DonationDialogue() {
   return (
     <Dialog>
-      <DialogTrigger asChild>{children}</DialogTrigger>
+      <DialogTrigger asChild>
+        <Button className={"bg-[#2353B2] text-white cursor-pointer"}>
+          <div className="flex flex-row items-center space-x-3">
+            <p className=" font-medium text-lg">Donate now</p>
+            <MoveRight size={200} />
+          </div>
+        </Button>
+      </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle>Support us now</DialogTitle>

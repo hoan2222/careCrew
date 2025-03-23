@@ -1,5 +1,4 @@
-import { Button } from "../ui/button";
-import { MoveRight } from "lucide-react";
+import { DonationDialogue } from "../donation_dialogue";
 
 export default function Nav() {
   return (
@@ -29,14 +28,7 @@ export default function Nav() {
       >
         PROJECTS
       </a>
-      <a href="https://hoan2222.github.io/careCrew">
-        <Button className={"bg-[#2353B2] text-white cursor-pointer"}>
-          <div className="flex flex-row items-center space-x-3">
-            <p className=" font-medium text-lg">Donate now</p>
-            <MoveRight size={200} />
-          </div>
-        </Button>
-      </a>
+      <DonationDialogue />
     </div>
   );
 }

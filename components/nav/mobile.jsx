@@ -64,28 +64,23 @@ export default function Mobile() {
               ))}
             </motion.div>
 
-            <motion.div
+            <motion.a
+              href="https://paypal.me/carecrewberlin"
               className="pb-20"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <DonationDialogue children={<btn />} />
-            </motion.div>
+              <Button className={"bg-[#2353B2] text-white cursor-pointer"}>
+                <div className="flex flex-row items-center space-x-5 py-8 ">
+                  <p className="font-medium text-3xl">Donate now</p>
+                  <MoveRight className="scale-150" />
+                </div>
+              </Button>
+            </motion.a>
           </motion.div>
         )}
       </AnimatePresence>
     </div>
   );
 }
-
-const btn = () => {
-  return (
-    <Button className={"bg-[#2353B2] text-white cursor-pointer"}>
-      <div className="flex flex-row items-center space-x-5 py-8 ">
-        <p className="font-medium text-3xl">Donate now</p>
-        <MoveRight className="scale-150" />
-      </div>
-    </Button>
-  );
-};
