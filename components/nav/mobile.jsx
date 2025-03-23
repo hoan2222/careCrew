@@ -15,6 +15,7 @@ export default function Mobile() {
         <img
           src="https://hoan2222.github.io/careCrew/logo.png"
           alt="CARE_CREW"
+          sizes="20vw"
         />
         {open ? (
           <X size={40} onClick={() => setOpen(false)} />
