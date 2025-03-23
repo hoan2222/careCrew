@@ -7,7 +7,7 @@ export default function Nav() {
         <img
           src="https://hoan2222.github.io/careCrew/logo.png"
           alt="CARE_CREW"
-          sizes="200px"
+          className="w-44"
         />
       </a>
       <a

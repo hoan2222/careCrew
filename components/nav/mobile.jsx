@@ -15,7 +15,7 @@ export default function Mobile() {
         <img
           src="https://hoan2222.github.io/careCrew/logo.png"
           alt="CARE_CREW"
-          sizes="20vw"
+          className="w-44"
         />
         {open ? (
           <X size={40} onClick={() => setOpen(false)} />
@@ -50,9 +50,7 @@ export default function Mobile() {
               {["ABOUT US", "OUR CONCEPT", "PROJECTS"].map((item) => (
                 <motion.a
                   key={item}
-                  href={`https://hoan2222.github.io/careCrew#${item
-                    .toLowerCase()
-                    .replace(" ", "-")}`}
+                  href={`#${item.toLowerCase().replace(" ", "-")}`} // Nur das # und der Section-Name
                   className="text-2xl"
                   onClick={() => setOpen(false)}
                   variants={{
