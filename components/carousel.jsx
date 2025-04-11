@@ -14,7 +14,7 @@ export default function Gallery() {
           <CarouselItem>
             <div className="p-1">
               <img
-                src="https://hoan2222.github.io/careCrew/Schule_gruppe.png"
+                src="https://hoan2222.github.io/careCrew/Schule_gruppe.jpg"
                 alt="Die Schule"
               />
             </div>
