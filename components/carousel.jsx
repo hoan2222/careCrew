@@ -14,6 +14,14 @@ export default function Gallery() {
           <CarouselItem>
             <div className="p-1">
               <img
+                src="https://hoan2222.github.io/careCrew/Schule_gruppe.png"
+                alt="Die Schule"
+              />
+            </div>
+          </CarouselItem>
+          <CarouselItem>
+            <div className="p-1">
+              <img
                 src="https://hoan2222.github.io/careCrew/Schule_outdoor.png"
                 alt="Die Schule"
               />
